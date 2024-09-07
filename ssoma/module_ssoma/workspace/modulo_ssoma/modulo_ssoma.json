@@ -1,0 +1,333 @@
+{
+ "cards_label": "SISTEMA INTEGRADO DE GESTI\u00d3N - SSOMA",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-12-17 10:45:41.924676",
+ "developer_mode_only": 0,
+ "disable_user_customization": 1,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "icon": "quality",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Modulo ssoma",
+ "links": [
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "MI ARCHIVO",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Documentos Generales",
+   "link_to": "Documentos Ssoma",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Documentos de SIG-SST",
+   "link_to": "Documentos de SIG SST",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Procedimientos - PETS",
+   "link_to": "Procedimientos PETS",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Comite de SST",
+   "link_to": "Acta de Comite SST",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "FORMATO DE INSPECCI\u00d3N",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecciones de Extintores",
+   "link_to": "Inspecciones de Extintores",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Equipos de emergencia",
+   "link_to": "Inspeccion Equipos de Emergencia",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspeccion de Primeros Auxilios",
+   "link_to": "Inspeccion de Primeros Auxilios",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Orden Y Limpieza",
+   "link_to": "Inspeccion  de Orden y Limpieza",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Uniformes y EPP",
+   "link_to": "Uniformes y Epp",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecci\u00f3n de carritos",
+   "link_to": "Inspeccion Carritos",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspeccion de Estocas",
+   "link_to": "Inspeccion de Estocas",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecci\u00f3n de Apilador Hidr\u00e1ulico Manual",
+   "link_to": "Inspeccion de Apilador Hidraulico Manual",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecci\u00f3n de Montacargas",
+   "link_to": "Inspeccion de Montacargas",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecci\u00f3n de Gabinete Contra Fuego",
+   "link_to": "Inspeccion de Gabinete Contra Incendio",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecci\u00f3n de Puerta Corrediza Electrica",
+   "link_to": "Inspeccion de Puerta Corrediza Electrica",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspecci\u00f3n de Apilador Electrico",
+   "link_to": "Inspeccion de Apilador Electrico",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 1,
+   "is_query_report": 0,
+   "label": "Inspeccion de Grupo Electrogeno",
+   "link_to": "Inspeccion del Grupo Electrogeno",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "GESTI\u00d3N DE DOCUMENTOS",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Gesti\u00f3n de Pol\u00edticas",
+   "link_to": "Politicas SSOMA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Gesti\u00f3n de Indicadores",
+   "link_to": "Indicadores SSOMA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Gesti\u00f3n de Actividades",
+   "link_to": "Actividades SSOMA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 1,
+   "label": "Resumen Programa Anual SST",
+   "link_to": "Resumen Programa Anual",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 1,
+   "label": "Resumen Programa Anual SST Actividades",
+   "link_to": "Resumen Programa Anual SST Actividades",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "INFORME CAPACITACIONES",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Capacitaciones Nacional 4",
+   "link_to": "Informe Capacitaciones Nacional 4",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Capacitaciones por \u00c1rea",
+   "link_to": "Informe Capacitaciones por Area",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Capacitaciones por Agencia",
+   "link_to": "Informe Capacitaciones por Agencia",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "DIAGN\u00d3STICO CONDIC.",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_inspection": 0,
+   "is_query_report": 0,
+   "label": "Diagn\u00f3sticos Lima",
+   "link_to": "Matriz de Condiciones",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-05-17 17:18:29.451547",
+ "modified_by": "ingaamable@gmail.com",
+ "module": "Module ssoma",
+ "name": "Modulo ssoma",
+ "owner": "ingaamable@gmail.com",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [],
+ "shortcuts_label": "Rutas Alternas"
+}

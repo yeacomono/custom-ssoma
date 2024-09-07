@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ssoma *.css
+recursive-include ssoma *.csv
+recursive-include ssoma *.html
+recursive-include ssoma *.ico
+recursive-include ssoma *.js
+recursive-include ssoma *.json
+recursive-include ssoma *.md
+recursive-include ssoma *.png
+recursive-include ssoma *.py
+recursive-include ssoma *.svg
+recursive-include ssoma *.txt
+recursive-exclude ssoma *.pyc

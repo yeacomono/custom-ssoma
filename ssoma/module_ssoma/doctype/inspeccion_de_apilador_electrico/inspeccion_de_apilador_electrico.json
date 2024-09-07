@@ -1,0 +1,197 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2023-10-04 11:22:22.223092",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "section_break_1",
+  "codigo",
+  "version",
+  "column_break_4",
+  "aprobado",
+  "agencia",
+  "section_break_8",
+  "nombre_responsable",
+  "nombre_completo_de_responsable",
+  "section_break_7",
+  "tablas_check_list_apilador_electrico",
+  "section_break_9",
+  "inspector",
+  "nombre_del_responsable",
+  "column_break_12",
+  "fecha",
+  "section_break_14",
+  "tabla_resumen_inspeccion_1",
+  "tabla_resumen_inspeccion_2",
+  "tabla_resumen_inspeccion_3",
+  "estado"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "options": "IAE-"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "default": "SHA-REG-HSE-047",
+   "fieldname": "codigo",
+   "fieldtype": "Data",
+   "label": "Codigo ",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "default": "02",
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version ",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "2023-07-19",
+   "fetch_from": "link_4.fecha_de_creaci\u00f3n",
+   "fieldname": "aprobado",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Aprobado",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "agencia",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Agencia ",
+   "options": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nombre_responsable",
+   "fieldtype": "Link",
+   "label": "Nombre del Responsable",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "nombre_responsable.nombre_completo",
+   "fieldname": "nombre_completo_de_responsable",
+   "fieldtype": "Data",
+   "label": "Nombre completo de Responsable",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tablas_check_list_apilador_electrico",
+   "fieldtype": "Table",
+   "label": "Tablas Check List Apilador Electrico",
+   "options": "Tabla Check List Apilador Electrico"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inspector",
+   "fieldtype": "Link",
+   "label": "Nombre de Inspector",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "inspector.nombre_completo",
+   "fieldname": "nombre_del_responsable",
+   "fieldtype": "Data",
+   "label": "Nombre completo",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fecha",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Fecha"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tabla_resumen_inspeccion_1",
+   "fieldtype": "Table",
+   "label": "Tabla de Resumen",
+   "options": "Tabla de Resumen Apilador Electrico",
+   "read_only_depends_on": "eval:!frappe.user_roles.includes(\"Usuario SSOMA\")"
+  },
+  {
+   "fieldname": "tabla_resumen_inspeccion_2",
+   "fieldtype": "Table",
+   "label": "Tabla Resumen Mes 2",
+   "options": "Tabla de Resumen Apilador Electrico"
+  },
+  {
+   "fieldname": "tabla_resumen_inspeccion_3",
+   "fieldtype": "Table",
+   "label": "Tabla Resumen Mes 3",
+   "options": "Tabla de Resumen Apilador Electrico"
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_standard_filter": 1,
+   "label": "Estado",
+   "options": "Proceso\nCerrado\nObservado\nRecibido\nApproved\nRechazado"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-17 10:54:34.070186",
+ "modified_by": "Administrator",
+ "module": "Module ssoma",
+ "name": "Inspeccion de Apilador Electrico",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "agencia"
+}
